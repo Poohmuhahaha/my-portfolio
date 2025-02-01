@@ -4,6 +4,7 @@ import Introduction from "./Component/interduce";
 import Experience from "./Component/experience";
 import MyExperience from  "./Component/myexperience";
 import Footer from "./Component/Footer";
+import Testauto from "./Component/testauto";
 
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
@@ -24,6 +25,7 @@ export default function Home() {
       <Experience></Experience>
       <MyExperience></MyExperience>
       <Footer></Footer>
+      <Testauto></Testauto>
     </div>
   );
 }
