@@ -1,5 +1,7 @@
+if want to auto deploy;;;
 git add .
 git commit -m "Update code"
 git push origin main
 
 \POOHEIEI\CODDING\portpooh
+
