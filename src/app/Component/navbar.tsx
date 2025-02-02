@@ -20,7 +20,7 @@ const Navbar = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
             aria-controls="navbar-solid-bg"
             aria-expanded={isOpen}
           >
@@ -31,16 +31,16 @@ const Navbar = () => {
           </button>
 
           {/* เมนูจะซ่อนหรือแสดงตามค่า isOpen */}
-          <div className={`${isOpen ? 'block' : 'hidden'} w-full sm:block sm:w-auto`} id="navbar-solid-bg" font-bold>
-            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 sm:flex-row sm:space-x-8 rtl:space-x">
+          <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-solid-bg" font-bold>
+            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-[#3">
               <li>
-                <a href="#introduction" className="block py-2 px-3 sm:p-0 text-gray-900 rounded-sm hover:bg-gray-100 sm:hover:bg-transparent sm:border-0 sm:hover:text-[#5a8c70]">About</a>
+                <a href="#introduction" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">About</a>
               </li>
               <li>
-                <a href="#experience" className="block py-2 px-3 sm:p-0 text-gray-900 rounded-sm hover:bg-gray-100 sm:hover:bg-transparent sm:border-0 sm:hover:text-[#5a8c70]">Experience and Project</a>
+                <a href="#experience" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">Experience and Project</a>
               </li>
               <li>
-                  <a href="#contact" className="block py-2 px-3 sm:p-0 text-gray-900 rounded-sm hover:bg-gray-100 sm:hover:bg-transparent sm:border-0 sm:hover:text-[#5a8c70]">Contact</a>
+                  <a href="#contact" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">Contact</a>
               </li>
             </ul>
           </div>
