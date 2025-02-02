@@ -11,16 +11,15 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 font-inter2 font-bold">
           
           <p className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               PT. PORTFOLIO
             </span>
           </p>
 
-          {/* ปุ่มเปิด-ปิดเมนู */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 transition-transform duration-300"
             aria-controls="navbar-solid-bg"
             aria-expanded={isOpen}
           >
@@ -30,17 +29,16 @@ const Navbar = () => {
             </svg>
           </button>
 
-          {/* เมนูจะซ่อนหรือแสดงตามค่า isOpen */}
-          <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-solid-bg" font-bold>
-            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-[#3">
+          <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto transition-all duration-300 ease-in-out`} id="navbar-solid-bg">
+            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
               <li>
-                <a href="#introduction" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">About</a>
+                <a href="#introduction" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">About</a>
               </li>
               <li>
-                <a href="#experience" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">Experience and Project</a>
+                <a href="#experience" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Experience and Project</a>
               </li>
               <li>
-                  <a href="#contact" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] ">Contact</a>
+                <a href="#contact" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Contact</a>
               </li>
             </ul>
           </div>
