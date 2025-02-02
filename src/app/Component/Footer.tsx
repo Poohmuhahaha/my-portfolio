@@ -1,5 +1,5 @@
 import React from 'react'
-import {Linkedin} from 'lucide-react'
+import { Linkedin } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="text-sm sm:text-base">(66+) 080 - 9101328</p>
           </div>
         </div>
-        <div className="flex space-x-6 md:space-x-8">
+        <div className="flex space-x-6 sm:space-x-4 md:space-x-8">
           <a 
             href="https://www.linkedin.com/in/phuwadon-thontra/" 
             target="_blank"
@@ -29,6 +29,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
+            {/* Add an icon or text for YouTube link */}
           </a>
         </div>
       </div>
