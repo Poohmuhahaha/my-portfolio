@@ -19,7 +19,7 @@ const Navbar = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 transition-transform duration-300"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none transition-transform duration-300"
             aria-controls="navbar-solid-bg"
             aria-expanded={isOpen}
           >
@@ -30,15 +30,15 @@ const Navbar = () => {
           </button>
 
           <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto transition-all duration-300 ease-in-out`} id="navbar-solid-bg">
-            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+            <ul className="flex flex-col font-medium mt-4 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
               <li>
-                <a href="#introduction" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">About</a>
+                <a href="#introduction" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-[#312220] md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">About</a>
               </li>
               <li>
-                <a href="#experience" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Experience and Project</a>
+                <a href="#experience" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-[#312220] md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Experience and Project</a>
               </li>
               <li>
-                <a href="#contact" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Contact</a>
+                <a href="#contact" className="block py-2 px-3 md:p-0 text-white rounded-sm hover:bg-[#312220] md:hover:bg-transparent md:border-0 md:hover:text-[#5a8c70] dark:text-white md:dark:hover:text-[#5a8c70] transition-colors duration-300">Contact</a>
               </li>
             </ul>
           </div>
