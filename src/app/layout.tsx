@@ -26,7 +26,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "PHUWADON THONTRA Portfolio",
   description: "Pooh's Portfolio",
 };
 
