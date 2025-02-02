@@ -1,7 +1,4 @@
 import React from 'react';
-import experienceImg from '../../assets/experience.png';
-import skillImg from '../../assets/skill.png';
-import projectImg from '../../assets/project.png';
 
 const MyExperience = () => {
   return (
@@ -14,10 +11,10 @@ const MyExperience = () => {
               <a href="#work">
             <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
              <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6 ">
-                <img src={experienceImg.default} alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
+                WORK
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="experience.png" alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="Experience.png" alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
                     Description:
@@ -32,10 +29,10 @@ const MyExperience = () => {
             <a href="#skill">
             <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
              <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6 ">
-                <img src={skillImg.default} alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
+                SKILL
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="skill.png" alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="Skill.png" alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <div className="flex-grow px-4">
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
@@ -52,16 +49,16 @@ const MyExperience = () => {
             <a href="#project">
             <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
              <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6">
-                <img src={projectImg.default} alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
+                PROJECT
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="project.png" alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="Project.png" alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <div className="flex-grow px-4 ">
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
                     Description:
                <span className='font-light '>
-               <br />Projects Ive worked on, whether required or just things I wanted to do.
+               <br />Projects I have worked on, whether required or just things I wanted to do.
                </span>
                 </p>
              </div>
