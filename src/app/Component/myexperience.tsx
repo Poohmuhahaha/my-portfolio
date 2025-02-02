@@ -14,7 +14,7 @@ const MyExperience = () => {
                 WORK
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="experience.png" alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="/experience.png" alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
                     Description:
@@ -32,7 +32,7 @@ const MyExperience = () => {
                 SKILL
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="skill.png" alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="/skill.png" alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <div className="flex-grow px-4">
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
@@ -52,7 +52,7 @@ const MyExperience = () => {
                 PROJECT
              </h3>
              <div className="w-full flex justify-center flex-shrink-0">
-                <img src="project.png" alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
+                <img src="/project.png" alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
              <div className="flex-grow px-4 ">
              <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
