@@ -1,5 +1,5 @@
 import React from 'react'
-import {Linkedin , Youtube} from 'lucide-react'
+import {Linkedin} from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -29,7 +29,6 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
-            <Youtube className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
         </div>
       </div>
