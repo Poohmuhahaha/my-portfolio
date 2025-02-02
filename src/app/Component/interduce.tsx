@@ -2,7 +2,7 @@ import React from 'react';
 
 const Introduction = () => {
   return (
-    <div className=" min-h-full bg-[#445049] text-white p-8 pt-32 pb-32" >
+    <div id='introduction' className=" min-h-full bg-[#445049] text-white p-8 pt-32 pb-32" >
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center ">
         {/* Content */}
         <div className="flex-col">
@@ -12,7 +12,7 @@ const Introduction = () => {
           </h1>
           
           <div className="text-gray-300 text-xl font-inter">
-            <p className="">
+            <p>
               Digital Marketing student 
               at Harbour Space University Bangkok campus
             </p>
@@ -26,10 +26,10 @@ const Introduction = () => {
         </div>
 
         <div className="relative">
-          <div className="rounded-full bg-[#A38371] max-w-md mx-auto overflow-hidden border-8 shadow-2xl drop-shadow-2xl">
+          <div className="rounded-full max-w-md mx-auto overflow-hidden shadow-2xl border-20 drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2">
             <img 
-              src="PoohPFP.png" 
-              className="w-full h-full object-cover"
+              src="LOCPFPP.png" 
+              className="w-full h-full object-cover "
             />
           </div>
         </div>

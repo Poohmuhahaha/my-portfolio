@@ -1,10 +1,11 @@
 'use client'
 import Navbar from "./Component/navbar";
 import Introduction from "./Component/interduce";
-import Experience from "./Component/experience";
 import MyExperience from  "./Component/myexperience";
 import Footer from "./Component/Footer";
-import Testauto from "./Component/testauto";
+import Work from "./Component/work";
+import Skill from "./Component/skill";
+import Project from "./Component/project";
 
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
@@ -22,10 +23,11 @@ export default function Home() {
     <div>
       <Navbar></Navbar>
       <Introduction></Introduction>
-      <Experience></Experience>
       <MyExperience></MyExperience>
+      <Work></Work>
+      <Skill></Skill>
+      <Project></Project>
       <Footer></Footer>
-      <Testauto></Testauto>
     </div>
   );
 }

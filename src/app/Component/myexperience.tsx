@@ -2,92 +2,68 @@ import React from 'react';
 
 const MyExperience = () => {
   return (
-    <div className=" bg-[#7A5653] min-h-full p-20 font-inter2 text-[#1F3328] " >
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 items-center tracking-wider">  
-            <div className='rounded-3xl bg-[#D9D9D9] mx-10 pt-2 pb-10 mb-20 px-2 shadow-2xl drop-shadow-2xl' > 
-             <h3 className='bg-[#1F3328] rounded-2xl p-4 text-center text-[#ffffff] font-inter text-2xl shadow-xl drop-shadow-xl'>
-                Experience
+    <div className="bg-[#7A5653] min-h-full p-4 sm:p-6 md:p-12 lg:p-20 font-inter2 text-[#1F3328] ">
+            <h2 id='experience' className='min-h-full bg-[#7A5653] text-white pt-40 pb-36 text-center text-6xl font-inter2 font-bold tracking-wider justify-items-center'>
+        EXPERIENCE AND PROJECT
+      </h2>
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch tracking-wider pb-20">  
+            {/* Experience Card */}
+              <a href="#work">
+            <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
+             <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6 ">
+                WORK
              </h3>
-             <div className='w-ful flex justify-center'>
-                <img src="experience.png" alt="" className=' px-10 py-10 w-96 h-96 ' />
+             <div className="w-full flex justify-center flex-shrink-0">
+                <img src="experience.png" alt="Experience icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
-                <h4 className='px-10 text-2xl font-bold leading-relaxed '>
-                    Leagues of Code TH
-                </h4>
-                <ul className='text-lg px-10 leading-relaxed list-disc '>
-                    <h5 className='font-bold pt-3'>Digital Marketing</h5> 
-                    <li className='mx-5'>SEO</li>
-                    <li className='mx-5'>UTM</li>
-                    <li className='mx-5'>Content Creator</li>
-                </ul>
-                <ul className='text-lg px-10 leading-relaxed list-disc'>
-                    <h5 className='font-bold pt-3'>Customer Relation (CR)</h5> 
-                    <li className='mx-5'>Analyst the Customer Information</li>
-                </ul>
-                <ul className='text-lg px-10 leading-relaxed list-disc'>
-                    <h5 className='font-bold pt-3'>Devolopment</h5> 
-                    <li className='mx-5'>Discord bot For Gamification Design</li>
-                </ul>
-             </div>            
-            
-            <div className=' rounded-3xl bg-[#D9D9D9] mx-10 pt-2 pb-10 mb-20 px-2 shadow-2xl drop-shadow-2xl' > 
-             <h4 className='bg-[#1F3328] rounded-2xl p-4 text-center text-[#ffffff] font-inter text-2xl shadow-xl drop-shadow-xl'>
-                Skill
-             </h4>
-             <div className='w-ful flex justify-center'>
-             <img src="skill.png" alt="" className=' px-10 py-10 w-96 h-96 ' />
-             </div>
-             <div> 
-                <h4 className='px-10 text-2xl font-bold leading-relaxed'>
-                Hard Skill
-                </h4>
-                <h4 className='text-lg pl-14 leading-relaxed'>
-                    - Custumer Relation
-                    <br />
-                    - Development 
-                    <p className='pl-5 leading-relaxed'>
-                        - HTML, Css, Javascript
-                        <br />
-                        - MongoDB
-                    </p>
-                    - Digital Marketing (UTM, SEO)
-                </h4>
-                <br />
-                <h4 className='px-10 text-2xl font-bold leading-relaxed'>
-                    Soft Skill
-                </h4>
-                <p className='text-lg pl-14 leading-relaxed'>
-                   - English Communocation
+             <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
+                    Description:
+               <span className='font-light'>
+               <br />My university experiences and the projects I have worked on.
+               </span>
                 </p>
-                <br />
-                <br />
+            </div>            
+              </a>
+            
+            {/* Skills Card */}
+            <a href="#skill">
+            <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
+             <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6 ">
+                SKILL
+             </h3>
+             <div className="w-full flex justify-center flex-shrink-0">
+                <img src="skill.png" alt="Skills icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
-
-            {/* Project     */}
+             <div className="flex-grow px-4">
+             <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
+                    Description:
+               <span className='font-light'>
+               <br />Skills I have learned from classes and self-study.
+               </span>
+                </p>
             </div>
-            <div className=' rounded-3xl bg-[#D9D9D9] mx-10 pt-2 pb-10 mb-20 px-2 shadow-2xl drop-shadow-2xl' > 
-             <h4 className='bg-[#1F3328] rounded-2xl p-4 text-center text-[#ffffff] font-inter text-2xl shadow-xl drop-shadow-xl'>
-                Project
-             </h4>
-             <div className='w-ful flex justify-center'>
-             <img src="project.png" alt="" className=' px-10 py-10 w-96 h-96 ' />
+            </div>
+                </a>
+
+            {/* Project Card */}
+            <a href="#project">
+            <div className="rounded-3xl bg-[#D9D9D9] p-4 h-full flex flex-col shadow-2xl drop-shadow-2xl transform transition-all duration-300 hover:-translate-y-2 pb-10 mx-10"> 
+             <h3 className="bg-[#1F3328] rounded-2xl p-3 text-center text-white font-inter text-lg md:text-xl lg:text-2xl shadow-xl drop-shadow-xl mb-6">
+                PROJECT
+             </h3>
+             <div className="w-full flex justify-center flex-shrink-0">
+                <img src="project.png" alt="Project icon" className="w-full h-32 md:h-40 object-contain" />
              </div>
-                <h4 className='px-10 text-2xl font-bold leading-relaxed'>
-                None
-                </h4>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+             <div className="flex-grow px-4 ">
+             <p className="text-lg md:text-xl lg:text-2xl font-bold leading-relaxed pt-5">
+                    Description:
+               <span className='font-light '>
+               <br />Projects I have worked on, whether required or just things I wanted to do.
+               </span>
+                </p>
+             </div>
             </div>   
+              </a>
         </div>
     </div>
   );
